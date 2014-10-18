@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-test_{{ cookiecutter.repo_name }}
+test_{{ cookiecutter.pymod_name }}
 ----------------------------------
 
 Tests for `{{ cookiecutter.repo_name }}` module.
@@ -10,10 +10,10 @@ Tests for `{{ cookiecutter.repo_name }}` module.
 
 import unittest
 
-from {{ cookiecutter.repo_name }} import {{ cookiecutter.repo_name }}
+from {{ cookiecutter.pymod_name }} import {{ cookiecutter.pymod_name }}
 
 
-class Test{{ cookiecutter.repo_name|capitalize }}(unittest.TestCase):
+class Test{{ cookiecutter.pymod_name|capitalize }}(unittest.TestCase):
 
     def setUp(self):
         pass

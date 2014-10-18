@@ -28,10 +28,10 @@ setup(
     author_email='{{ cookiecutter.email }}',
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}',
     packages=[
-        '{{ cookiecutter.repo_name }}',
+        '{{ cookiecutter.pymod_name }}',
     ],
-    package_dir={'{{ cookiecutter.repo_name }}':
-                 '{{ cookiecutter.repo_name }}'},
+    package_dir={'{{ cookiecutter.pymod_name }}':
+                 '{{ cookiecutter.pymod_name }}'},
     include_package_data=True,
     install_requires=requirements,
     license="GPLv3+",
